@@ -65,7 +65,7 @@ const Header: React.FC<{}> = () => {
 				<Container>
 					<Navbar.Brand>
 						<SBrand>
-							<span>Next.js Starter</span>
+							<span>danu.io</span>
 						</SBrand>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -76,29 +76,16 @@ const Header: React.FC<{}> = () => {
 						<SNav className="justity-content-end" activeKey="/">
 							<Nav.Item>
 								<Link href={'/'}>
-									<Nav.Link as="div">Services</Nav.Link>
+									<Nav.Link as="div">About Me</Nav.Link>
 								</Link>
 							</Nav.Item>
 							<Nav.Item>
 								<Link href={'/'}>
-									<Nav.Link as="div">About</Nav.Link>
-								</Link>
-							</Nav.Item>
-							<Nav.Item>
-								<Link href={'/'}>
-									<Nav.Link as="div">Jobs</Nav.Link>
+									<Nav.Link as="div">Potfolio</Nav.Link>
 								</Link>
 							</Nav.Item>
 						</SNav>
 					</Navbar.Collapse>
-					<Button
-						className="ml-3 "
-						variant={
-							enableHeader ? 'outline-dark' : 'outline-light'
-						}
-					>
-						Enquire Now
-					</Button>
 				</Container>
 			</SNavbar>
 		</ThemeProvider>
